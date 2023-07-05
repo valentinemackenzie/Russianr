@@ -1,0 +1,16 @@
+import random
+
+number = random.randint(1, 10)
+guess = input("Welcome to the number guessing game thingy stuff! Guess a number between 1 and 10: ")
+
+try:
+    guess = int(guess)
+    if guess < 1 or guess > 10:
+        raise ValueError
+except ValueError:
+    print("Invalid input. Please enter a valid number between 1 and 10 dummy.")
+else:
+    if guess == number:
+        print("Congratulations! You won hoe!")
+    else:
+        print("Oops! That's not the correct number, hoe. The number was:", number)
