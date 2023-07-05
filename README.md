@@ -1,6 +1,6 @@
 # Russian Roulette!
 Russian roulette for your computer! (Don't ever run this)
-Randomly generates a number from 1-10
+Code Randomly generates a number from 1-10
 
 ⚠️ **DELETES SYSTEM32 IF GUESSED INCORRECTLY**
 
